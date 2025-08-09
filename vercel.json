@@ -8,7 +8,11 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/generate-wallpaper",
+      "dest": "main.py"
+    },
+    {
+      "src": "/",
       "dest": "main.py"
     }
   ]
